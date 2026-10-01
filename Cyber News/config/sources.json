@@ -1,0 +1,94 @@
+{
+  "cisa_kev": {
+    "enabled": true,
+    "name": "CISA Known Exploited Vulnerabilities",
+    "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "type": "cisa_kev"
+  },
+  "rss_feeds": [
+    {
+      "name": "CISA Cybersecurity Advisories",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "category_hint": "CRITICAL VULNERABILITY",
+      "enabled": true
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "category_hint": "OTHER",
+      "enabled": true
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "category_hint": "OTHER",
+      "enabled": true
+    },
+    {
+      "name": "The Record by Recorded Future",
+      "url": "https://therecord.media/feed/",
+      "category_hint": "OTHER",
+      "enabled": true
+    },
+    {
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "category_hint": "OTHER",
+      "enabled": true
+    },
+    {
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/feed/",
+      "category_hint": "OTHER",
+      "enabled": true
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "category_hint": "PATCH / SECURITY ADVISORY",
+      "enabled": true
+    },
+    {
+      "name": "Google Security Blog",
+      "url": "https://blog.google/technology/safety-security/rss/",
+      "category_hint": "SECURITY RESEARCH",
+      "enabled": true
+    },
+    {
+      "name": "Cloudflare Security",
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "category_hint": "CLOUD SECURITY",
+      "enabled": true
+    },
+    {
+      "name": "Cisco Talos Intelligence",
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "category_hint": "SECURITY RESEARCH",
+      "enabled": true
+    },
+    {
+      "name": "Palo Alto Networks Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "category_hint": "APT / THREAT ACTOR",
+      "enabled": true
+    },
+    {
+      "name": "Trend Micro Research",
+      "url": "https://blog.trendmicro.com/feed/",
+      "category_hint": "MALWARE",
+      "enabled": true
+    },
+    {
+      "name": "Sophos Threat Research",
+      "url": "https://news.sophos.com/en-us/feed/",
+      "category_hint": "RANSOMWARE",
+      "enabled": true
+    },
+    {
+      "name": "SANS Internet Storm Center",
+      "url": "https://isc.sans.edu/rssfeed.xml",
+      "category_hint": "NETWORK SECURITY",
+      "enabled": true
+    }
+  ]
+}

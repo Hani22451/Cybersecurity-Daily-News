@@ -1,0 +1,259 @@
+2026-09-30 21:05:06 [INFO] CyberNewsAgent: Starting deduplication on 2 collected items...
+2026-09-30 21:05:06 [INFO] CyberNewsAgent: Deduplication complete. Reduced 2 items -> 1 unique intelligence items.
+2026-09-30 21:05:35 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:05:35 [INFO] CyberNewsAgent: Starting Cybersecurity Daily Intelligence Agent
+2026-09-30 21:05:35 [INFO] CyberNewsAgent: >>> TEST MODE ENABLED <<<
+2026-09-30 21:05:35 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:05:35 [INFO] CyberNewsAgent: Fetching CISA KEV feed from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-09-30 21:05:46 [ERROR] CyberNewsAgent: Error fetching CISA KEV catalog: HTTPSConnectionPool(host='www.cisa.gov', port=443): Max retries exceeded with url: /sites/default/files/feeds/known_exploited_vulnerabilities.json (Caused by NameResolutionError("HTTPSConnection(host='www.cisa.gov', port=443): Failed to resolve 'www.cisa.gov' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:05:46 [INFO] CyberNewsAgent: Fetching RSS feed: CISA Cybersecurity Advisories (https://www.cisa.gov/cybersecurity-advisories/all.xml)
+2026-09-30 21:05:57 [ERROR] CyberNewsAgent: Error collecting RSS feed CISA Cybersecurity Advisories: HTTPSConnectionPool(host='www.cisa.gov', port=443): Max retries exceeded with url: /cybersecurity-advisories/all.xml (Caused by NameResolutionError("HTTPSConnection(host='www.cisa.gov', port=443): Failed to resolve 'www.cisa.gov' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:05:57 [INFO] CyberNewsAgent: Fetching RSS feed: BleepingComputer (https://www.bleepingcomputer.com/feed/)
+2026-09-30 21:06:08 [ERROR] CyberNewsAgent: Error collecting RSS feed BleepingComputer: HTTPSConnectionPool(host='www.bleepingcomputer.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.bleepingcomputer.com', port=443): Failed to resolve 'www.bleepingcomputer.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:08 [INFO] CyberNewsAgent: Fetching RSS feed: Krebs on Security (https://krebsonsecurity.com/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Krebs on Security: HTTPSConnectionPool(host='krebsonsecurity.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='krebsonsecurity.com', port=443): Failed to resolve 'krebsonsecurity.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: The Record by Recorded Future (https://therecord.media/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed The Record by Recorded Future: HTTPSConnectionPool(host='therecord.media', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='therecord.media', port=443): Failed to resolve 'therecord.media' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Dark Reading (https://www.darkreading.com/rss.xml)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Dark Reading: HTTPSConnectionPool(host='www.darkreading.com', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.darkreading.com', port=443): Failed to resolve 'www.darkreading.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: SecurityWeek (https://www.securityweek.com/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed SecurityWeek: HTTPSConnectionPool(host='www.securityweek.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.securityweek.com', port=443): Failed to resolve 'www.securityweek.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Microsoft Security Blog (https://www.microsoft.com/en-us/security/blog/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Microsoft Security Blog: HTTPSConnectionPool(host='www.microsoft.com', port=443): Max retries exceeded with url: /en-us/security/blog/feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.microsoft.com', port=443): Failed to resolve 'www.microsoft.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Google Security Blog (https://blog.google/technology/safety-security/rss/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Google Security Blog: HTTPSConnectionPool(host='blog.google', port=443): Max retries exceeded with url: /technology/safety-security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.google', port=443): Failed to resolve 'blog.google' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Cloudflare Security (https://blog.cloudflare.com/tag/security/rss/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Cloudflare Security: HTTPSConnectionPool(host='blog.cloudflare.com', port=443): Max retries exceeded with url: /tag/security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.cloudflare.com', port=443): Failed to resolve 'blog.cloudflare.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Cisco Talos Intelligence (https://feeds.feedburner.com/feedburner/Talos)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Cisco Talos Intelligence: HTTPSConnectionPool(host='feeds.feedburner.com', port=443): Max retries exceeded with url: /feedburner/Talos (Caused by NameResolutionError("HTTPSConnection(host='feeds.feedburner.com', port=443): Failed to resolve 'feeds.feedburner.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Palo Alto Networks Unit 42 (https://unit42.paloaltonetworks.com/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Palo Alto Networks Unit 42: HTTPSConnectionPool(host='unit42.paloaltonetworks.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='unit42.paloaltonetworks.com', port=443): Failed to resolve 'unit42.paloaltonetworks.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Trend Micro Research (https://blog.trendmicro.com/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Trend Micro Research: HTTPSConnectionPool(host='blog.trendmicro.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='blog.trendmicro.com', port=443): Failed to resolve 'blog.trendmicro.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: Sophos Threat Research (https://news.sophos.com/en-us/feed/)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed Sophos Threat Research: HTTPSConnectionPool(host='news.sophos.com', port=443): Max retries exceeded with url: /en-us/feed/ (Caused by NameResolutionError("HTTPSConnection(host='news.sophos.com', port=443): Failed to resolve 'news.sophos.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Fetching RSS feed: SANS Internet Storm Center (https://isc.sans.edu/rssfeed.xml)
+2026-09-30 21:06:19 [ERROR] CyberNewsAgent: Error collecting RSS feed SANS Internet Storm Center: HTTPSConnectionPool(host='isc.sans.edu', port=443): Max retries exceeded with url: /rssfeed.xml (Caused by NameResolutionError("HTTPSConnection(host='isc.sans.edu', port=443): Failed to resolve 'isc.sans.edu' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Total raw items collected across all sources: 0
+2026-09-30 21:06:19 [WARNING] CyberNewsAgent: No fresh cybersecurity news items collected in the lookback period.
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Categorizing 0 items...
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Initializing Zero-Cost Offline Fallback Analyzer
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Running Fallback Rule-Based Analyzer on 0 items (Offline / Free)...
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Successfully generated Markdown report at C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: Skipping Telegram delivery in test mode (use --send-telegram to force delivery).
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: --------------------------------------------------
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: EXECUTION SUMMARY:
+2026-09-30 21:06:19 [INFO] CyberNewsAgent:   - Total items collected: 0
+2026-09-30 21:06:19 [INFO] CyberNewsAgent:   - Duplicates removed:   0
+2026-09-30 21:06:19 [INFO] CyberNewsAgent:   - Unique items analyzed: 0
+2026-09-30 21:06:19 [INFO] CyberNewsAgent:   - Critical/High items:   0
+2026-09-30 21:06:19 [INFO] CyberNewsAgent:   - Report saved to:      C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:06:19 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:07:03 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:07:03 [INFO] CyberNewsAgent: Starting Cybersecurity Daily Intelligence Agent
+2026-09-30 21:07:03 [INFO] CyberNewsAgent: >>> TEST MODE ENABLED <<<
+2026-09-30 21:07:03 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:07:03 [INFO] CyberNewsAgent: Fetching CISA KEV feed from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-09-30 21:07:07 [INFO] CyberNewsAgent: Collected 1 fresh CISA KEV items
+2026-09-30 21:07:07 [INFO] CyberNewsAgent: Fetching RSS feed: CISA Cybersecurity Advisories (https://www.cisa.gov/cybersecurity-advisories/all.xml)
+2026-09-30 21:07:09 [INFO] CyberNewsAgent: Collected 3 fresh items from CISA Cybersecurity Advisories
+2026-09-30 21:07:09 [INFO] CyberNewsAgent: Fetching RSS feed: BleepingComputer (https://www.bleepingcomputer.com/feed/)
+2026-09-30 21:07:20 [ERROR] CyberNewsAgent: Error collecting RSS feed BleepingComputer: HTTPSConnectionPool(host='www.bleepingcomputer.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.bleepingcomputer.com', port=443): Failed to resolve 'www.bleepingcomputer.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:07:20 [INFO] CyberNewsAgent: Fetching RSS feed: Krebs on Security (https://krebsonsecurity.com/feed/)
+2026-09-30 21:07:31 [ERROR] CyberNewsAgent: Error collecting RSS feed Krebs on Security: HTTPSConnectionPool(host='krebsonsecurity.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='krebsonsecurity.com', port=443): Failed to resolve 'krebsonsecurity.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:07:31 [INFO] CyberNewsAgent: Fetching RSS feed: The Record by Recorded Future (https://therecord.media/feed/)
+2026-09-30 21:07:42 [ERROR] CyberNewsAgent: Error collecting RSS feed The Record by Recorded Future: HTTPSConnectionPool(host='therecord.media', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='therecord.media', port=443): Failed to resolve 'therecord.media' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:07:42 [INFO] CyberNewsAgent: Fetching RSS feed: Dark Reading (https://www.darkreading.com/rss.xml)
+2026-09-30 21:07:44 [INFO] CyberNewsAgent: Collected 3 fresh items from Dark Reading
+2026-09-30 21:07:44 [INFO] CyberNewsAgent: Fetching RSS feed: SecurityWeek (https://www.securityweek.com/feed/)
+2026-09-30 21:07:49 [INFO] CyberNewsAgent: Collected 3 fresh items from SecurityWeek
+2026-09-30 21:07:49 [INFO] CyberNewsAgent: Fetching RSS feed: Microsoft Security Blog (https://www.microsoft.com/en-us/security/blog/feed/)
+2026-09-30 21:08:00 [ERROR] CyberNewsAgent: Error collecting RSS feed Microsoft Security Blog: HTTPSConnectionPool(host='www.microsoft.com', port=443): Max retries exceeded with url: /en-us/security/blog/feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.microsoft.com', port=443): Failed to resolve 'www.microsoft.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:00 [INFO] CyberNewsAgent: Fetching RSS feed: Google Security Blog (https://blog.google/technology/safety-security/rss/)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed Google Security Blog: HTTPSConnectionPool(host='blog.google', port=443): Max retries exceeded with url: /technology/safety-security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.google', port=443): Failed to resolve 'blog.google' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Fetching RSS feed: Cloudflare Security (https://blog.cloudflare.com/tag/security/rss/)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed Cloudflare Security: HTTPSConnectionPool(host='blog.cloudflare.com', port=443): Max retries exceeded with url: /tag/security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.cloudflare.com', port=443): Failed to resolve 'blog.cloudflare.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Fetching RSS feed: Cisco Talos Intelligence (https://feeds.feedburner.com/feedburner/Talos)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed Cisco Talos Intelligence: HTTPSConnectionPool(host='feeds.feedburner.com', port=443): Max retries exceeded with url: /feedburner/Talos (Caused by NameResolutionError("HTTPSConnection(host='feeds.feedburner.com', port=443): Failed to resolve 'feeds.feedburner.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Fetching RSS feed: Palo Alto Networks Unit 42 (https://unit42.paloaltonetworks.com/feed/)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed Palo Alto Networks Unit 42: HTTPSConnectionPool(host='unit42.paloaltonetworks.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='unit42.paloaltonetworks.com', port=443): Failed to resolve 'unit42.paloaltonetworks.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Fetching RSS feed: Trend Micro Research (https://blog.trendmicro.com/feed/)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed Trend Micro Research: HTTPSConnectionPool(host='blog.trendmicro.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='blog.trendmicro.com', port=443): Failed to resolve 'blog.trendmicro.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Fetching RSS feed: Sophos Threat Research (https://news.sophos.com/en-us/feed/)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed Sophos Threat Research: HTTPSConnectionPool(host='news.sophos.com', port=443): Max retries exceeded with url: /en-us/feed/ (Caused by NameResolutionError("HTTPSConnection(host='news.sophos.com', port=443): Failed to resolve 'news.sophos.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Fetching RSS feed: SANS Internet Storm Center (https://isc.sans.edu/rssfeed.xml)
+2026-09-30 21:08:11 [ERROR] CyberNewsAgent: Error collecting RSS feed SANS Internet Storm Center: HTTPSConnectionPool(host='isc.sans.edu', port=443): Max retries exceeded with url: /rssfeed.xml (Caused by NameResolutionError("HTTPSConnection(host='isc.sans.edu', port=443): Failed to resolve 'isc.sans.edu' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Total raw items collected across all sources: 10
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Starting deduplication on 10 collected items...
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Deduplication complete. Reduced 10 items -> 9 unique intelligence items.
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Categorizing 9 items...
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Initializing Zero-Cost Offline Fallback Analyzer
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Running Fallback Rule-Based Analyzer on 9 items (Offline / Free)...
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Successfully generated Markdown report at C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: Skipping Telegram delivery in test mode (use --send-telegram to force delivery).
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: --------------------------------------------------
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: EXECUTION SUMMARY:
+2026-09-30 21:08:11 [INFO] CyberNewsAgent:   - Total items collected: 10
+2026-09-30 21:08:11 [INFO] CyberNewsAgent:   - Duplicates removed:   1
+2026-09-30 21:08:11 [INFO] CyberNewsAgent:   - Unique items analyzed: 9
+2026-09-30 21:08:11 [INFO] CyberNewsAgent:   - Critical/High items:   8
+2026-09-30 21:08:11 [INFO] CyberNewsAgent:   - Report saved to:      C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:08:11 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:14:20 [INFO] CyberNewsAgent: Starting deduplication on 2 collected items...
+2026-09-30 21:14:20 [INFO] CyberNewsAgent: Deduplication complete. Reduced 2 items -> 1 unique intelligence items.
+2026-09-30 21:14:29 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:14:29 [INFO] CyberNewsAgent: Starting Cybersecurity Daily Intelligence Agent
+2026-09-30 21:14:29 [INFO] CyberNewsAgent: >>> TEST MODE ENABLED <<<
+2026-09-30 21:14:29 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:14:29 [INFO] CyberNewsAgent: Fetching CISA KEV feed from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-09-30 21:14:31 [INFO] CyberNewsAgent: Collected 1 fresh CISA KEV items
+2026-09-30 21:14:31 [INFO] CyberNewsAgent: Fetching RSS feed: CISA Cybersecurity Advisories (https://www.cisa.gov/cybersecurity-advisories/all.xml)
+2026-09-30 21:14:31 [INFO] CyberNewsAgent: Collected 3 fresh items from CISA Cybersecurity Advisories
+2026-09-30 21:14:31 [INFO] CyberNewsAgent: Fetching RSS feed: BleepingComputer (https://www.bleepingcomputer.com/feed/)
+2026-09-30 21:14:34 [INFO] CyberNewsAgent: Collected 3 fresh items from BleepingComputer
+2026-09-30 21:14:34 [INFO] CyberNewsAgent: Fetching RSS feed: Krebs on Security (https://krebsonsecurity.com/feed/)
+2026-09-30 21:14:46 [ERROR] CyberNewsAgent: Error collecting RSS feed Krebs on Security: HTTPSConnectionPool(host='krebsonsecurity.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='krebsonsecurity.com', port=443): Failed to resolve 'krebsonsecurity.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:46 [INFO] CyberNewsAgent: Fetching RSS feed: The Record by Recorded Future (https://therecord.media/feed/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed The Record by Recorded Future: HTTPSConnectionPool(host='therecord.media', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='therecord.media', port=443): Failed to resolve 'therecord.media' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Dark Reading (https://www.darkreading.com/rss.xml)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Dark Reading: HTTPSConnectionPool(host='www.darkreading.com', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.darkreading.com', port=443): Failed to resolve 'www.darkreading.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: SecurityWeek (https://www.securityweek.com/feed/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed SecurityWeek: HTTPSConnectionPool(host='www.securityweek.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.securityweek.com', port=443): Failed to resolve 'www.securityweek.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Microsoft Security Blog (https://www.microsoft.com/en-us/security/blog/feed/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Microsoft Security Blog: HTTPSConnectionPool(host='www.microsoft.com', port=443): Max retries exceeded with url: /en-us/security/blog/feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.microsoft.com', port=443): Failed to resolve 'www.microsoft.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Google Security Blog (https://blog.google/technology/safety-security/rss/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Google Security Blog: HTTPSConnectionPool(host='blog.google', port=443): Max retries exceeded with url: /technology/safety-security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.google', port=443): Failed to resolve 'blog.google' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Cloudflare Security (https://blog.cloudflare.com/tag/security/rss/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Cloudflare Security: HTTPSConnectionPool(host='blog.cloudflare.com', port=443): Max retries exceeded with url: /tag/security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.cloudflare.com', port=443): Failed to resolve 'blog.cloudflare.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Cisco Talos Intelligence (https://feeds.feedburner.com/feedburner/Talos)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Cisco Talos Intelligence: HTTPSConnectionPool(host='feeds.feedburner.com', port=443): Max retries exceeded with url: /feedburner/Talos (Caused by NameResolutionError("HTTPSConnection(host='feeds.feedburner.com', port=443): Failed to resolve 'feeds.feedburner.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Palo Alto Networks Unit 42 (https://unit42.paloaltonetworks.com/feed/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Palo Alto Networks Unit 42: HTTPSConnectionPool(host='unit42.paloaltonetworks.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='unit42.paloaltonetworks.com', port=443): Failed to resolve 'unit42.paloaltonetworks.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Trend Micro Research (https://blog.trendmicro.com/feed/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Trend Micro Research: HTTPSConnectionPool(host='blog.trendmicro.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='blog.trendmicro.com', port=443): Failed to resolve 'blog.trendmicro.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: Sophos Threat Research (https://news.sophos.com/en-us/feed/)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed Sophos Threat Research: HTTPSConnectionPool(host='news.sophos.com', port=443): Max retries exceeded with url: /en-us/feed/ (Caused by NameResolutionError("HTTPSConnection(host='news.sophos.com', port=443): Failed to resolve 'news.sophos.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Fetching RSS feed: SANS Internet Storm Center (https://isc.sans.edu/rssfeed.xml)
+2026-09-30 21:14:58 [ERROR] CyberNewsAgent: Error collecting RSS feed SANS Internet Storm Center: HTTPSConnectionPool(host='isc.sans.edu', port=443): Max retries exceeded with url: /rssfeed.xml (Caused by NameResolutionError("HTTPSConnection(host='isc.sans.edu', port=443): Failed to resolve 'isc.sans.edu' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Total raw items collected across all sources: 7
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Starting deduplication on 7 collected items...
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Deduplication complete. Reduced 7 items -> 7 unique intelligence items.
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Categorizing 7 items...
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Initializing Zero-Cost Offline Fallback Analyzer
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Running Fallback Rule-Based Analyzer on 7 items (Offline / Free)...
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Successfully generated Markdown report at C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: Skipping Telegram delivery in test mode (use --send-telegram to force delivery).
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: --------------------------------------------------
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: EXECUTION SUMMARY:
+2026-09-30 21:14:58 [INFO] CyberNewsAgent:   - Total items collected: 7
+2026-09-30 21:14:58 [INFO] CyberNewsAgent:   - Duplicates removed:   0
+2026-09-30 21:14:58 [INFO] CyberNewsAgent:   - Unique items analyzed: 7
+2026-09-30 21:14:58 [INFO] CyberNewsAgent:   - Critical/High items:   5
+2026-09-30 21:14:58 [INFO] CyberNewsAgent:   - Report saved to:      C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:14:58 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:15:35 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:15:35 [INFO] CyberNewsAgent: Starting Cybersecurity Daily Intelligence Agent
+2026-09-30 21:15:35 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:15:35 [INFO] CyberNewsAgent: Fetching CISA KEV feed from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-09-30 21:16:14 [INFO] CyberNewsAgent: Starting deduplication on 2 collected items...
+2026-09-30 21:16:14 [INFO] CyberNewsAgent: Deduplication complete. Reduced 2 items -> 1 unique intelligence items.
+2026-09-30 21:16:20 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:16:20 [INFO] CyberNewsAgent: Starting Cybersecurity Daily Intelligence Agent
+2026-09-30 21:16:20 [INFO] CyberNewsAgent: >>> TEST MODE ENABLED <<<
+2026-09-30 21:16:20 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:16:20 [INFO] CyberNewsAgent: Fetching CISA KEV feed from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-09-30 21:16:26 [INFO] CyberNewsAgent: Collected 1 fresh CISA KEV items
+2026-09-30 21:16:26 [INFO] CyberNewsAgent: Fetching RSS feed: CISA Cybersecurity Advisories (https://www.cisa.gov/cybersecurity-advisories/all.xml)
+2026-09-30 21:16:26 [INFO] CyberNewsAgent: Collected 3 fresh items from CISA Cybersecurity Advisories
+2026-09-30 21:16:26 [INFO] CyberNewsAgent: Fetching RSS feed: BleepingComputer (https://www.bleepingcomputer.com/feed/)
+2026-09-30 21:16:27 [INFO] CyberNewsAgent: Collected 3 fresh items from BleepingComputer
+2026-09-30 21:16:27 [INFO] CyberNewsAgent: Fetching RSS feed: Krebs on Security (https://krebsonsecurity.com/feed/)
+2026-09-30 21:16:39 [ERROR] CyberNewsAgent: Error collecting RSS feed Krebs on Security: HTTPSConnectionPool(host='krebsonsecurity.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='krebsonsecurity.com', port=443): Failed to resolve 'krebsonsecurity.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:16:39 [INFO] CyberNewsAgent: Fetching RSS feed: The Record by Recorded Future (https://therecord.media/feed/)
+2026-09-30 21:16:48 [INFO] CyberNewsAgent: Collected 3 fresh items from The Record by Recorded Future
+2026-09-30 21:16:48 [INFO] CyberNewsAgent: Fetching RSS feed: Dark Reading (https://www.darkreading.com/rss.xml)
+2026-09-30 21:17:00 [ERROR] CyberNewsAgent: Error collecting RSS feed Dark Reading: HTTPSConnectionPool(host='www.darkreading.com', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.darkreading.com', port=443): Failed to resolve 'www.darkreading.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:17:00 [INFO] CyberNewsAgent: Fetching RSS feed: SecurityWeek (https://www.securityweek.com/feed/)
+2026-09-30 21:17:11 [INFO] CyberNewsAgent: Collected 3 fresh items from SecurityWeek
+2026-09-30 21:17:11 [INFO] CyberNewsAgent: Fetching RSS feed: Microsoft Security Blog (https://www.microsoft.com/en-us/security/blog/feed/)
+2026-09-30 21:17:20 [INFO] CyberNewsAgent: Collected 3 fresh items from Microsoft Security Blog
+2026-09-30 21:17:20 [INFO] CyberNewsAgent: Fetching RSS feed: Google Security Blog (https://blog.google/technology/safety-security/rss/)
+2026-09-30 21:17:22 [INFO] CyberNewsAgent: Collected 0 fresh items from Google Security Blog
+2026-09-30 21:17:22 [INFO] CyberNewsAgent: Fetching RSS feed: Cloudflare Security (https://blog.cloudflare.com/tag/security/rss/)
+2026-09-30 21:17:31 [INFO] CyberNewsAgent: Collected 3 fresh items from Cloudflare Security
+2026-09-30 21:17:31 [INFO] CyberNewsAgent: Fetching RSS feed: Cisco Talos Intelligence (https://feeds.feedburner.com/feedburner/Talos)
+2026-09-30 21:17:32 [INFO] CyberNewsAgent: Collected 2 fresh items from Cisco Talos Intelligence
+2026-09-30 21:17:32 [INFO] CyberNewsAgent: Fetching RSS feed: Palo Alto Networks Unit 42 (https://unit42.paloaltonetworks.com/feed/)
+2026-09-30 21:17:33 [INFO] CyberNewsAgent: Collected 2 fresh items from Palo Alto Networks Unit 42
+2026-09-30 21:17:33 [INFO] CyberNewsAgent: Fetching RSS feed: Trend Micro Research (https://blog.trendmicro.com/feed/)
+2026-09-30 21:17:35 [INFO] CyberNewsAgent: Collected 0 fresh items from Trend Micro Research
+2026-09-30 21:17:35 [INFO] CyberNewsAgent: Fetching RSS feed: Sophos Threat Research (https://news.sophos.com/en-us/feed/)
+2026-09-30 21:17:38 [WARNING] CyberNewsAgent: Failed to fetch Sophos Threat Research: HTTP status 404
+2026-09-30 21:17:38 [INFO] CyberNewsAgent: Fetching RSS feed: SANS Internet Storm Center (https://isc.sans.edu/rssfeed.xml)
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Collected 3 fresh items from SANS Internet Storm Center
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Total raw items collected across all sources: 26
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Starting deduplication on 26 collected items...
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Deduplication complete. Reduced 26 items -> 23 unique intelligence items.
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Categorizing 23 items...
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Initializing Zero-Cost Offline Fallback Analyzer
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Running Fallback Rule-Based Analyzer on 23 items (Offline / Free)...
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Successfully generated Markdown report at C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: Skipping Telegram delivery in test mode (use --send-telegram to force delivery).
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: --------------------------------------------------
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: EXECUTION SUMMARY:
+2026-09-30 21:17:40 [INFO] CyberNewsAgent:   - Total items collected: 26
+2026-09-30 21:17:40 [INFO] CyberNewsAgent:   - Duplicates removed:   3
+2026-09-30 21:17:40 [INFO] CyberNewsAgent:   - Unique items analyzed: 23
+2026-09-30 21:17:40 [INFO] CyberNewsAgent:   - Critical/High items:   12
+2026-09-30 21:17:40 [INFO] CyberNewsAgent:   - Report saved to:      C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:17:40 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:18:58 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:18:58 [INFO] CyberNewsAgent: Starting Cybersecurity Daily Intelligence Agent
+2026-09-30 21:18:58 [INFO] CyberNewsAgent: >>> TEST MODE ENABLED <<<
+2026-09-30 21:18:58 [INFO] CyberNewsAgent: ==================================================
+2026-09-30 21:18:58 [INFO] CyberNewsAgent: Fetching CISA KEV feed from https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+2026-09-30 21:19:10 [ERROR] CyberNewsAgent: Error fetching CISA KEV catalog: HTTPSConnectionPool(host='www.cisa.gov', port=443): Max retries exceeded with url: /sites/default/files/feeds/known_exploited_vulnerabilities.json (Caused by NameResolutionError("HTTPSConnection(host='www.cisa.gov', port=443): Failed to resolve 'www.cisa.gov' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:10 [INFO] CyberNewsAgent: Fetching RSS feed: CISA Cybersecurity Advisories (https://www.cisa.gov/cybersecurity-advisories/all.xml)
+2026-09-30 21:19:23 [ERROR] CyberNewsAgent: Error collecting RSS feed CISA Cybersecurity Advisories: HTTPSConnectionPool(host='www.cisa.gov', port=443): Max retries exceeded with url: /cybersecurity-advisories/all.xml (Caused by NameResolutionError("HTTPSConnection(host='www.cisa.gov', port=443): Failed to resolve 'www.cisa.gov' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:23 [INFO] CyberNewsAgent: Fetching RSS feed: BleepingComputer (https://www.bleepingcomputer.com/feed/)
+2026-09-30 21:19:23 [INFO] CyberNewsAgent: Collected 3 fresh items from BleepingComputer
+2026-09-30 21:19:23 [INFO] CyberNewsAgent: Fetching RSS feed: Krebs on Security (https://krebsonsecurity.com/feed/)
+2026-09-30 21:19:35 [ERROR] CyberNewsAgent: Error collecting RSS feed Krebs on Security: HTTPSConnectionPool(host='krebsonsecurity.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='krebsonsecurity.com', port=443): Failed to resolve 'krebsonsecurity.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:35 [INFO] CyberNewsAgent: Fetching RSS feed: The Record by Recorded Future (https://therecord.media/feed/)
+2026-09-30 21:19:38 [INFO] CyberNewsAgent: Collected 3 fresh items from The Record by Recorded Future
+2026-09-30 21:19:38 [INFO] CyberNewsAgent: Fetching RSS feed: Dark Reading (https://www.darkreading.com/rss.xml)
+2026-09-30 21:19:50 [ERROR] CyberNewsAgent: Error collecting RSS feed Dark Reading: HTTPSConnectionPool(host='www.darkreading.com', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError("HTTPSConnection(host='www.darkreading.com', port=443): Failed to resolve 'www.darkreading.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:50 [INFO] CyberNewsAgent: Fetching RSS feed: SecurityWeek (https://www.securityweek.com/feed/)
+2026-09-30 21:19:52 [INFO] CyberNewsAgent: Collected 3 fresh items from SecurityWeek
+2026-09-30 21:19:52 [INFO] CyberNewsAgent: Fetching RSS feed: Microsoft Security Blog (https://www.microsoft.com/en-us/security/blog/feed/)
+2026-09-30 21:19:52 [ERROR] CyberNewsAgent: Error collecting RSS feed Microsoft Security Blog: HTTPSConnectionPool(host='www.microsoft.com', port=443): Max retries exceeded with url: /en-us/security/blog/feed/ (Caused by NameResolutionError("HTTPSConnection(host='www.microsoft.com', port=443): Failed to resolve 'www.microsoft.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:52 [INFO] CyberNewsAgent: Fetching RSS feed: Google Security Blog (https://blog.google/technology/safety-security/rss/)
+2026-09-30 21:19:52 [ERROR] CyberNewsAgent: Error collecting RSS feed Google Security Blog: HTTPSConnectionPool(host='blog.google', port=443): Max retries exceeded with url: /technology/safety-security/rss/ (Caused by NameResolutionError("HTTPSConnection(host='blog.google', port=443): Failed to resolve 'blog.google' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:52 [INFO] CyberNewsAgent: Fetching RSS feed: Cloudflare Security (https://blog.cloudflare.com/tag/security/rss/)
+2026-09-30 21:19:52 [INFO] CyberNewsAgent: Collected 3 fresh items from Cloudflare Security
+2026-09-30 21:19:52 [INFO] CyberNewsAgent: Fetching RSS feed: Cisco Talos Intelligence (https://feeds.feedburner.com/feedburner/Talos)
+2026-09-30 21:19:53 [INFO] CyberNewsAgent: Collected 2 fresh items from Cisco Talos Intelligence
+2026-09-30 21:19:53 [INFO] CyberNewsAgent: Fetching RSS feed: Palo Alto Networks Unit 42 (https://unit42.paloaltonetworks.com/feed/)
+2026-09-30 21:19:53 [ERROR] CyberNewsAgent: Error collecting RSS feed Palo Alto Networks Unit 42: HTTPSConnectionPool(host='unit42.paloaltonetworks.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='unit42.paloaltonetworks.com', port=443): Failed to resolve 'unit42.paloaltonetworks.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:53 [INFO] CyberNewsAgent: Fetching RSS feed: Trend Micro Research (https://blog.trendmicro.com/feed/)
+2026-09-30 21:19:53 [ERROR] CyberNewsAgent: Error collecting RSS feed Trend Micro Research: HTTPSConnectionPool(host='blog.trendmicro.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError("HTTPSConnection(host='blog.trendmicro.com', port=443): Failed to resolve 'blog.trendmicro.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:53 [INFO] CyberNewsAgent: Fetching RSS feed: Sophos Threat Research (https://news.sophos.com/en-us/feed/)
+2026-09-30 21:19:53 [ERROR] CyberNewsAgent: Error collecting RSS feed Sophos Threat Research: HTTPSConnectionPool(host='news.sophos.com', port=443): Max retries exceeded with url: /en-us/feed/ (Caused by NameResolutionError("HTTPSConnection(host='news.sophos.com', port=443): Failed to resolve 'news.sophos.com' ([Errno 11001] getaddrinfo failed)"))
+2026-09-30 21:19:53 [INFO] CyberNewsAgent: Fetching RSS feed: SANS Internet Storm Center (https://isc.sans.edu/rssfeed.xml)
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Collected 3 fresh items from SANS Internet Storm Center
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Total raw items collected across all sources: 17
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Starting deduplication on 17 collected items...
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Deduplication complete. Reduced 17 items -> 15 unique intelligence items.
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Categorizing 15 items...
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Initializing Zero-Cost Offline Fallback Analyzer
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Running Fallback Rule-Based Analyzer on 15 items (Offline / Free)...
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Successfully generated Markdown report at C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: Skipping Telegram delivery in test mode (use --send-telegram to force delivery).
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: --------------------------------------------------
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: EXECUTION SUMMARY:
+2026-09-30 21:19:55 [INFO] CyberNewsAgent:   - Total items collected: 17
+2026-09-30 21:19:55 [INFO] CyberNewsAgent:   - Duplicates removed:   2
+2026-09-30 21:19:55 [INFO] CyberNewsAgent:   - Unique items analyzed: 15
+2026-09-30 21:19:55 [INFO] CyberNewsAgent:   - Critical/High items:   6
+2026-09-30 21:19:55 [INFO] CyberNewsAgent:   - Report saved to:      C:\Users\sanka\Desktop\Cyber News\reports\test_report.md
+2026-09-30 21:19:55 [INFO] CyberNewsAgent: ==================================================
