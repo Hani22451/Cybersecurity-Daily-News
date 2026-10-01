@@ -21,9 +21,13 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: |
+            requirements.txt
+            Cyber News/requirements.txt
 
       - name: Install Dependencies
         run: |
+          if [ -d "Cyber News" ]; then cd "Cyber News"; fi
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
@@ -35,10 +39,12 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
+          if [ -d "Cyber News" ]; then cd "Cyber News"; fi
           python main.py
 
       - name: Commit and Push Reports
         run: |
+          if [ -d "Cyber News" ]; then cd "Cyber News"; fi
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add reports/
@@ -50,5 +56,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: daily-cyber-report
-          path: reports/*.md
-
+          path: |
+            reports/*.md
+            Cyber News/reports/*.md
