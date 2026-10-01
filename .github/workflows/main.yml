@@ -1,1 +1,54 @@
+name: Cybersecurity Daily Intelligence Report
+
+on:
+  schedule:
+    # Runs daily at 02:30 UTC (8:00 AM IST)
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Cybersecurity Daily Agent
+        env:
+          AI_PROVIDER: ${{ secrets.AI_PROVIDER }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python main.py
+
+      - name: Commit and Push Reports
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add reports/
+          git status
+          git commit -m "Automated Daily Intelligence Report [skip ci]" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
+
+      - name: Upload Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-cyber-report
+          path: reports/*.md
 
